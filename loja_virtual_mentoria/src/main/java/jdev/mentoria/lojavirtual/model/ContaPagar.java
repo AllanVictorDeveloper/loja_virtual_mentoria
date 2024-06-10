@@ -2,7 +2,6 @@ package jdev.mentoria.lojavirtual.model;
 
 import jakarta.persistence.*;
 import jdev.mentoria.lojavirtual.enums.StatusContaPagar;
-import jdev.mentoria.lojavirtual.enums.StatusContaReceber;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
