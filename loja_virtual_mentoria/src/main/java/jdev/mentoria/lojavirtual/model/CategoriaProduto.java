@@ -2,6 +2,7 @@ package jdev.mentoria.lojavirtual.model;
 
 import jakarta.persistence.*;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.Objects;
 
@@ -10,6 +11,7 @@ import java.util.Objects;
 @SequenceGenerator(name = "seq_categoria_produto", sequenceName = "seq_categoria_produto", allocationSize = 1, initialValue = 1)
 public class CategoriaProduto implements Serializable {
 
+    @Serial
     private static  final long  serialVersionUID = 1L;
 
     @Id
