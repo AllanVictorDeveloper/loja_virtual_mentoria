@@ -3,6 +3,7 @@ package jdev.mentoria.lojavirtual.model;
 import jakarta.persistence.*;
 import jdev.mentoria.lojavirtual.enums.StatusContaPagar;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
@@ -14,6 +15,7 @@ import java.util.Objects;
 @SequenceGenerator(name = "seq_conta_pagar", sequenceName = "seq_conta_pagar", allocationSize = 1, initialValue = 1)
 public class ContaPagar implements Serializable {
 
+    @Serial
     private static final long serialVersionUID = 1L;
 
     @Id
